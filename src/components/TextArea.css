@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    font-size: 2rem;
+    line-height: 1.5;
+    resize: none;
+}
+
+.textsubmit{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.textsubmit:hover{
+    background-color: rgb(14, 236, 236);
+}
